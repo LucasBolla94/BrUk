@@ -1,0 +1,39 @@
+.header__main {
+    background-color: var(--header-bg);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__userdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header__user--photo {
+    width: 60px;
+}
+
+.header__username {
+    margin-top: 0.5em;
+    text-align: center;
+    font-weight: 300;
+}
+
+.post__content {
+    padding: 0.5em;
+}
+
+.btn__post {
+    margin: 0.5em 0;
+    display: block;
+    width: 100%;
+    background-color: var(--header-bg);
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}

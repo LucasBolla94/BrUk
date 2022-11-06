@@ -1,0 +1,36 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.text__login {
+    margin: 0 0 0.5em 0;
+}
+
+#btn__login {
+    margin: 1em 0;
+    width: 100%;
+    height: 2.5em;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--bgcolor);
+    color: white;
+}
+
+.login__ipt {
+    margin: 0.5em;
+    height: 1.5em;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}

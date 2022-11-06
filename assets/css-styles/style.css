@@ -1,0 +1,17 @@
+@import url("styles/header__login.css");
+@import url("styles/login.css");
+@import url("styles/header__main.css");
+@import url("styles/post.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+:root {
+    --header-bg: #0d1122;
+}
